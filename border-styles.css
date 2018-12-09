@@ -1,0 +1,91 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:'Arial',serif;
+}
+
+.nav {
+width: 100%;
+height: 70px;
+background-color:#595959;
+color:#595959;
+list-style:none;
+text-align: right;
+position:fixed;
+top:0;
+}
+
+.nav > ul > li {
+    display: inline-block;
+    padding:0 25px 0 25px;
+
+}
+
+.nav >ul >li>a {
+text-decoration: none;
+color:#ffffff;
+}
+
+.nav > ul>li>a:hover{
+    color:#c1c1c1;
+}
+
+.content{
+    margin-left: 300px;
+    padding-top:150px;
+}
+
+.btn-style{
+    background: #595959;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    border:1px solid gray;
+    border-radius: 5px;
+
+}
+.btn-style:hover{
+    background-color: gray;
+}
+
+ input[type="submit"]{
+    width:10%;
+    padding:7px 15px;
+    background-color:#2BC1F2;
+    border:none;
+    color:#fff;
+    font-size:15px;
+    font-weight:700;
+    cursor:pointer;
+    font-family:'Ubuntu',sans-serif
+    } 
+.email
+{
+    padding:0px;
+    margin-left:0px;
+    
+}
+.inputelement{
+    margin-left:0px;
+    display:block;
+    margin-bottom:20px;
+}
+.namelabel{
+    display:block;
+
+}
+.inputelement1{
+    display: block;
+    margin-bottom:20px;
+}
+.Message{
+    padding:0px;
+    margin-left:0px;
+}
+
+.textArea{
+    display: block;
+    margin-bottom:20px;
+    padding:7px;
+}
